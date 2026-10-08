@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="shadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Sober Canvas Background -->
+  <rect width="800" height="450" fill="#0b0f14"/>
+
+  <!-- Browser Container -->
+  <g filter="url(#shadow3)" transform="translate(60, 42)">
+    <rect width="680" height="366" rx="10" fill="#131a24" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+    
+    <!-- Top Bar -->
+    <rect width="680" height="38" rx="10" fill="#0e141c"/>
+    <circle cx="24" cy="19" r="4.5" fill="#ef4444" opacity="0.8"/>
+    <circle cx="40" cy="19" r="4.5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="56" cy="19" r="4.5" fill="#10b981" opacity="0.8"/>
+    <rect x="220" y="9" width="240" height="20" rx="4" fill="#161f2c"/>
+    <text x="340" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">sensiq-final.onrender.com</text>
+
+    <!-- Platform Header -->
+    <g transform="translate(30, 56)">
+      <rect width="620" height="44" rx="6" fill="#161f2c"/>
+      <text x="18" y="28" font-family="sans-serif" font-size="14.5" font-weight="700" fill="#f1f5f9">SensiQ • Multimodal Accessible Classroom</text>
+      <rect x="420" y="10" width="186" height="24" rx="4" fill="#0f766e"/>
+      <text x="513" y="26" font-family="sans-serif" font-size="10.5" font-weight="600" fill="#ffffff" text-anchor="middle">📄 Research Paper Published</text>
+    </g>
+
+    <!-- Column 1: ISL Sign Language & Video -->
+    <g transform="translate(30, 114)">
+      <rect width="295" height="226" rx="8" fill="#161f2c" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+      <rect x="14" y="14" width="267" height="135" rx="6" fill="#0e141c"/>
+      
+      <!-- Assistive Camera / Sign Graphic -->
+      <circle cx="147" cy="65" r="28" fill="#115e59" stroke="#14b8a6" stroke-width="2"/>
+      <text x="147" y="72" font-family="sans-serif" font-size="20" fill="#fff" text-anchor="middle">🤟</text>
+      <rect x="36" y="112" width="223" height="22" rx="4" fill="#134e4a"/>
+      <text x="147" y="127" font-family="sans-serif" font-size="10" font-weight="600" fill="#2dd4bf" text-anchor="middle">ISL Detection: "Welcome to Data Structures"</text>
+
+      <!-- Bottom Audio / Speech indicator -->
+      <rect x="14" y="160" width="267" height="52" rx="6" fill="#0e141c"/>
+      <text x="24" y="180" font-family="sans-serif" font-size="10.5" font-weight="600" fill="#14b8a6">🎙️ Web Speech API (Bidirectional)</text>
+      <!-- Waveform lines -->
+      <line x1="24" y1="197" x2="32" y2="197" stroke="#14b8a6" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="38" y1="192" x2="46" y2="192" stroke="#14b8a6" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="52" y1="187" x2="60" y2="187" stroke="#14b8a6" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="66" y1="200" x2="74" y2="200" stroke="#14b8a6" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="80" y1="190" x2="88" y2="190" stroke="#14b8a6" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="94" y1="195" x2="102" y2="195" stroke="#14b8a6" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="118" y="198" font-family="sans-serif" font-size="10" fill="#94a3b8">Real-time speech to subtitle sync</text>
+    </g>
+
+    <!-- Column 2: Gemini Tutor Assistant -->
+    <g transform="translate(345, 114)">
+      <rect width="305" height="226" rx="8" fill="#161f2c" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+      <rect x="16" y="14" width="273" height="30" rx="5" fill="#0f766e"/>
+      <text x="152" y="34" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">Gemini AI Assistive Tutor</text>
+
+      <!-- Chat Bubbles -->
+      <rect x="16" y="56" width="250" height="42" rx="6" fill="#0e141c"/>
+      <text x="26" y="74" font-family="sans-serif" font-size="10.5" fill="#cbd5e1">Learner: "Can you explain binary search</text>
+      <text x="26" y="90" font-family="sans-serif" font-size="10.5" fill="#cbd5e1">with an accessible high-contrast diagram?"</text>
+
+      <rect x="39" y="106" width="250" height="52" rx="6" fill="#134e4a"/>
+      <text x="49" y="124" font-family="sans-serif" font-size="10.5" fill="#2dd4bf">AI Tutor: "Dividing array [1..16] in half.</text>
+      <text x="49" y="139" font-family="sans-serif" font-size="10.5" fill="#2dd4bf">High contrast focus mode activated with</text>
+      <text x="49" y="153" font-family="sans-serif" font-size="10.5" fill="#2dd4bf">haptic screen reader voiceover."</text>
+
+      <!-- Passport Auth / Stack badge -->
+      <rect x="16" y="170" width="273" height="42" rx="6" fill="#0e141c"/>
+      <text x="26" y="188" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#94a3b8">Auth: Passport.js + Session + JWT</text>
+      <text x="26" y="202" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#14b8a6">Accessibility: WCAG 2.1 AAA Compliant</text>
+    </g>
+  </g>
+</svg>

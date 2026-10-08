@@ -21,3 +21,5 @@ yarn-error.log*
 # Temp & Cache
 .temp/
 .cache/
+dist/
+.vercel/

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="shadow1" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Sober Canvas Background -->
+  <rect width="800" height="450" fill="#0b0f14"/>
+
+  <!-- Browser Container -->
+  <g filter="url(#shadow1)" transform="translate(60, 42)">
+    <rect width="680" height="366" rx="10" fill="#131a24" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+    
+    <!-- Top Bar -->
+    <rect width="680" height="38" rx="10" fill="#0e141c"/>
+    <circle cx="24" cy="19" r="4.5" fill="#ef4444" opacity="0.8"/>
+    <circle cx="40" cy="19" r="4.5" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="56" cy="19" r="4.5" fill="#10b981" opacity="0.8"/>
+    <rect x="220" y="9" width="240" height="20" rx="4" fill="#161f2c"/>
+    <text x="340" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">ai-interview-coach.dev/session</text>
+    
+    <!-- Main Content Area -->
+    <!-- Left Question Panel -->
+    <rect x="24" y="56" width="380" height="152" rx="8" fill="#161f2c" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+    <rect x="40" y="74" width="90" height="22" rx="4" fill="#0f766e"/>
+    <text x="85" y="89" font-family="sans-serif" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">QUESTION 03</text>
+    <rect x="140" y="74" width="80" height="22" rx="4" fill="#1e293b"/>
+    <text x="180" y="89" font-family="sans-serif" font-size="10.5" font-weight="600" fill="#94a3b8" text-anchor="middle">REACT / CORE</text>
+    
+    <text x="40" y="122" font-family="sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">Explain the Virtual DOM reconciliation</text>
+    <text x="40" y="142" font-family="sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">algorithm and how keys optimize Fiber trees.</text>
+    <text x="40" y="176" font-family="sans-serif" font-size="11" fill="#64748b">Difficulty: Intermediate • Evaluated via Gemini API</text>
+
+    <!-- Answer Box -->
+    <rect x="24" y="224" width="380" height="116" rx="8" fill="#0e141c" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+    <text x="40" y="248" font-family="'JetBrains Mono', monospace" font-size="11" fill="#14b8a6">Candidate Response:</text>
+    <text x="40" y="272" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94a3b8">"React applies a heuristic O(n) diffing</text>
+    <text x="40" y="292" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94a3b8">algorithm across Fiber tree nodes. Stable keys preserve state."</text>
+    <rect x="40" y="308" width="92" height="18" rx="4" fill="#134e4a"/>
+    <text x="86" y="321" font-family="sans-serif" font-size="9.5" font-weight="600" fill="#2dd4bf" text-anchor="middle">● Audio Stream Active</text>
+
+    <!-- Right AI Feedback Panel -->
+    <rect x="420" y="56" width="236" height="284" rx="8" fill="#161f2c" stroke="rgba(20, 184, 166, 0.3)" stroke-width="1"/>
+    <rect x="436" y="72" width="204" height="30" rx="5" fill="#0f766e"/>
+    <text x="538" y="92" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Gemini AI Evaluation</text>
+
+    <!-- Score Circle -->
+    <circle cx="538" cy="150" r="32" fill="#0e141c" stroke="#14b8a6" stroke-width="3"/>
+    <text x="538" y="154" font-family="sans-serif" font-size="16" font-weight="800" fill="#14b8a6" text-anchor="middle">92%</text>
+    <text x="538" y="196" font-family="sans-serif" font-size="10.5" font-weight="600" fill="#cbd5e1" text-anchor="middle">Technical Depth: High</text>
+
+    <!-- Feedback Bullets -->
+    <rect x="436" y="214" width="204" height="1" fill="#334155"/>
+    <text x="442" y="234" font-family="sans-serif" font-size="10" fill="#2dd4bf">✓ Accurate explanation of Fiber tree</text>
+    <text x="442" y="254" font-family="sans-serif" font-size="10" fill="#2dd4bf">✓ Heuristic complexity O(n) verified</text>
+    <text x="442" y="274" font-family="sans-serif" font-size="10" fill="#fbbf24">⚠ Tip: Mention batching & useId hook</text>
+
+    <rect x="436" y="296" width="204" height="28" rx="5" fill="#14b8a6"/>
+    <text x="538" y="314" font-family="sans-serif" font-size="11" font-weight="700" fill="#0b0f14" text-anchor="middle">Next Question →</text>
+  </g>
+</svg>
